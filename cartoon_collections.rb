@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(planeteer_calls)# code an argument here
   planeteer_calls.each.to_a.collect do |name|
-    "#{name.split(&:capitalize)}!"
+    "#{name.capitalize}!"
   end
 end
 
